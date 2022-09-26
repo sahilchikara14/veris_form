@@ -12,7 +12,7 @@ const Details = (props) => {
                 <div className="modal-dialog">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h5 className="modal-title" >Details</h5>
+                            <h5 className="modal-title" >Meeting Scheduled Successfully</h5>
                             <button type="button" className="btn-close" onClick={props.hide}></button>
                         </div>
                         <div className="modal-body">
