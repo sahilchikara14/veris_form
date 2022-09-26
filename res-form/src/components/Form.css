@@ -1,0 +1,23 @@
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-col-left{
+    margin:20px;
+    padding:20px;
+}
+
+.grid-col-right{
+    margin:20px;
+    padding:20px;
+}
+
+
+.btn-rad{
+    border-radius: 50px;
+}
+
+.mar-all{
+    margin:20px 0px;
+}
