@@ -9,14 +9,21 @@ import Error from './Error';
 
 const Form = () => {
 
-    const [details, setDetails] = useState({})
+    const initialState={
+        details:{
+            name:"",email:"",
+        }
+    }
+
+    const [details, setDetails] = useState(initialState.details)
     const [detailsModel,setDetailsModel]=useState(false)
     const [errorModel,setErrorModel]=useState(false)
+   
 
     const show = (e) => {
         e.preventDefault();
         const { name, email } = details;
-        if (name == null || email == null) {
+        if (name == "" || email == "") {
             return setErrorModel(true)
            // console.log("error");
            
